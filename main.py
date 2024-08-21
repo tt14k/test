@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:sjis -*-
 from flask import Flask, render_template
-from calculation_circle import calculation_circle
 import requests
 
 app = Flask(__name__)
