@@ -9,14 +9,14 @@ app = Flask(__name__)
 #デコレーター
 #トップページにアクセスされた場合、こちらにアクセス
 @app.route('/')
-def index():
+def main():
     oshimen = {
         'name' : 'ほんだかすみ',
         'status':'だいすき'
     }
 
     return render_template(
-        'index.html',
+        'main.html',
         oshimen = oshimen
     )
 
