@@ -1,2 +1,2 @@
 Flask
-gunicorn==19.9.0
+unicorn==19.9.0
